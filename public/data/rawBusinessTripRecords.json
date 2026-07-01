@@ -1,0 +1,90 @@
+[
+  {
+    "rowIndex": 0,
+    "employeeId": "EMP001",
+    "name": "张",
+    "startDate": "2026-03-21",
+    "endDate": "2026-03-22",
+    "approvalStatusRaw": "Approved",
+    "approvalStatusTrimmed": "Approved",
+    "isApproved": true,
+    "workDays": 0
+  },
+  {
+    "rowIndex": 1,
+    "employeeId": "EMP001",
+    "name": "张",
+    "startDate": "2026-03-25",
+    "endDate": "2026-03-27",
+    "approvalStatusRaw": "Approved",
+    "approvalStatusTrimmed": "Approved",
+    "isApproved": true,
+    "workDays": 3
+  },
+  {
+    "rowIndex": 2,
+    "employeeId": "EMP002",
+    "name": "付",
+    "startDate": "2026-03-03",
+    "endDate": "2026-03-03",
+    "approvalStatusRaw": "Approved",
+    "approvalStatusTrimmed": "Approved",
+    "isApproved": true,
+    "workDays": 1
+  },
+  {
+    "rowIndex": 3,
+    "employeeId": "EMP002",
+    "name": "付",
+    "startDate": "2026-03-17",
+    "endDate": "2026-03-17",
+    "approvalStatusRaw": "Approved",
+    "approvalStatusTrimmed": "Approved",
+    "isApproved": true,
+    "workDays": 1
+  },
+  {
+    "rowIndex": 4,
+    "employeeId": "EMP002",
+    "name": "付",
+    "startDate": "2026-03-27",
+    "endDate": "2026-03-27",
+    "approvalStatusRaw": "Approved",
+    "approvalStatusTrimmed": "Approved",
+    "isApproved": true,
+    "workDays": 1
+  },
+  {
+    "rowIndex": 5,
+    "employeeId": "EMP002",
+    "name": "付",
+    "startDate": "2026-03-24",
+    "endDate": "2026-03-24",
+    "approvalStatusRaw": "Approved",
+    "approvalStatusTrimmed": "Approved",
+    "isApproved": true,
+    "workDays": 1
+  },
+  {
+    "rowIndex": 6,
+    "employeeId": "EMP002",
+    "name": "付",
+    "startDate": "2026-03-26",
+    "endDate": "2026-03-26",
+    "approvalStatusRaw": "Approved",
+    "approvalStatusTrimmed": "Approved",
+    "isApproved": true,
+    "workDays": 1
+  },
+  {
+    "rowIndex": 7,
+    "employeeId": "EMP003",
+    "name": "陈",
+    "startDate": "2026-03-16",
+    "endDate": "2026-03-17",
+    "approvalStatusRaw": "Approved",
+    "approvalStatusTrimmed": "Approved",
+    "isApproved": true,
+    "workDays": 2
+  }
+]

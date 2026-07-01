@@ -1,0 +1,1637 @@
+[
+  {
+    "employeeId": "EMP002",
+    "name": "付",
+    "department": "2",
+    "date": "2026-03-02",
+    "dayOfWeek": "周一",
+    "checkIn": "09:31",
+    "checkOut": "18:12",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "迟到",
+      "早退",
+      "工时不足"
+    ],
+    "riskLevel": "Medium",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：迟到、早退、工时不足"
+  },
+  {
+    "employeeId": "EMP003",
+    "name": "陈",
+    "department": "2",
+    "date": "2026-03-02",
+    "dayOfWeek": "周一",
+    "checkIn": "08:30",
+    "checkOut": "17:35",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "早退"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：早退"
+  },
+  {
+    "employeeId": "EMP004",
+    "name": "叶",
+    "department": "2",
+    "date": "2026-03-02",
+    "dayOfWeek": "周一",
+    "checkIn": "10:08",
+    "checkOut": "18:20",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "迟到",
+      "早退",
+      "工时不足"
+    ],
+    "riskLevel": "Medium",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：迟到、早退、工时不足"
+  },
+  {
+    "employeeId": "EMP002",
+    "name": "付",
+    "department": "—",
+    "date": "2026-03-03",
+    "dayOfWeek": "周二",
+    "checkIn": null,
+    "checkOut": null,
+    "standardWorkHours": 8,
+    "creditedWorkHours": 8,
+    "isBusinessTrip": true,
+    "isOnLeave": false,
+    "attendanceStatus": "已出差",
+    "processStatus": "无需处理",
+    "exceptionTypes": [],
+    "riskLevel": "Normal",
+    "managerEmail": null,
+    "sourceTypes": [
+      "出差记录表"
+    ],
+    "ruleExplanation": "匹配 Approved 出差记录，不计入异常"
+  },
+  {
+    "employeeId": "EMP003",
+    "name": "陈",
+    "department": "2",
+    "date": "2026-03-03",
+    "dayOfWeek": "周二",
+    "checkIn": "08:30",
+    "checkOut": "17:45",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "早退"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：早退"
+  },
+  {
+    "employeeId": "EMP004",
+    "name": "叶",
+    "department": "2",
+    "date": "2026-03-03",
+    "dayOfWeek": "周二",
+    "checkIn": "10:12",
+    "checkOut": "18:40",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "迟到",
+      "工时不足"
+    ],
+    "riskLevel": "Medium",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：迟到、工时不足"
+  },
+  {
+    "employeeId": "EMP002",
+    "name": "付",
+    "department": "2",
+    "date": "2026-03-04",
+    "dayOfWeek": "周三",
+    "checkIn": "09:42",
+    "checkOut": "19:47",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "迟到"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：迟到"
+  },
+  {
+    "employeeId": "EMP003",
+    "name": "陈",
+    "department": "2",
+    "date": "2026-03-04",
+    "dayOfWeek": "周三",
+    "checkIn": "08:29",
+    "checkOut": "17:45",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "早退"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：早退"
+  },
+  {
+    "employeeId": "EMP004",
+    "name": "叶",
+    "department": "2",
+    "date": "2026-03-04",
+    "dayOfWeek": "周三",
+    "checkIn": "10:44",
+    "checkOut": "18:30",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "严重迟到",
+      "工时不足"
+    ],
+    "riskLevel": "High",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：严重迟到、工时不足"
+  },
+  {
+    "employeeId": "EMP002",
+    "name": "付",
+    "department": "2",
+    "date": "2026-03-05",
+    "dayOfWeek": "周四",
+    "checkIn": "10:50",
+    "checkOut": "19:42",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "严重迟到",
+      "工时不足"
+    ],
+    "riskLevel": "High",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：严重迟到、工时不足"
+  },
+  {
+    "employeeId": "EMP003",
+    "name": "陈",
+    "department": "2",
+    "date": "2026-03-05",
+    "dayOfWeek": "周四",
+    "checkIn": "08:31",
+    "checkOut": "17:32",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "早退"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：早退"
+  },
+  {
+    "employeeId": "EMP004",
+    "name": "叶",
+    "department": "2",
+    "date": "2026-03-05",
+    "dayOfWeek": "周四",
+    "checkIn": "10:20",
+    "checkOut": "18:07",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "迟到",
+      "早退",
+      "工时不足"
+    ],
+    "riskLevel": "Medium",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：迟到、早退、工时不足"
+  },
+  {
+    "employeeId": "EMP002",
+    "name": "付",
+    "department": "2",
+    "date": "2026-03-06",
+    "dayOfWeek": "周五",
+    "checkIn": "09:46",
+    "checkOut": "20:28",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "迟到"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：迟到"
+  },
+  {
+    "employeeId": "EMP003",
+    "name": "陈",
+    "department": "2",
+    "date": "2026-03-06",
+    "dayOfWeek": "周五",
+    "checkIn": "08:24",
+    "checkOut": "17:46",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "早退"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：早退"
+  },
+  {
+    "employeeId": "EMP004",
+    "name": "叶",
+    "department": "2",
+    "date": "2026-03-06",
+    "dayOfWeek": "周五",
+    "checkIn": "10:11",
+    "checkOut": "18:33",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "迟到",
+      "工时不足"
+    ],
+    "riskLevel": "Medium",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：迟到、工时不足"
+  },
+  {
+    "employeeId": "EMP002",
+    "name": "付",
+    "department": "2",
+    "date": "2026-03-09",
+    "dayOfWeek": "周一",
+    "checkIn": "09:32",
+    "checkOut": "19:11",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "迟到"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：迟到"
+  },
+  {
+    "employeeId": "EMP003",
+    "name": "陈",
+    "department": "2",
+    "date": "2026-03-09",
+    "dayOfWeek": "周一",
+    "checkIn": "08:26",
+    "checkOut": "17:36",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "早退"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：早退"
+  },
+  {
+    "employeeId": "EMP004",
+    "name": "叶",
+    "department": "2",
+    "date": "2026-03-09",
+    "dayOfWeek": "周一",
+    "checkIn": "10:00",
+    "checkOut": "18:46",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "迟到",
+      "工时不足"
+    ],
+    "riskLevel": "Medium",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：迟到、工时不足"
+  },
+  {
+    "employeeId": "EMP002",
+    "name": "付",
+    "department": "2",
+    "date": "2026-03-10",
+    "dayOfWeek": "周二",
+    "checkIn": "10:07",
+    "checkOut": "18:34",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "迟到",
+      "工时不足"
+    ],
+    "riskLevel": "Medium",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：迟到、工时不足"
+  },
+  {
+    "employeeId": "EMP003",
+    "name": "陈",
+    "department": "2",
+    "date": "2026-03-10",
+    "dayOfWeek": "周二",
+    "checkIn": "08:25",
+    "checkOut": "17:30",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "早退"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：早退"
+  },
+  {
+    "employeeId": "EMP004",
+    "name": "叶",
+    "department": "2",
+    "date": "2026-03-10",
+    "dayOfWeek": "周二",
+    "checkIn": "10:34",
+    "checkOut": "17:06",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "严重迟到",
+      "早退",
+      "工时不足"
+    ],
+    "riskLevel": "High",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：严重迟到、早退、工时不足"
+  },
+  {
+    "employeeId": "EMP003",
+    "name": "陈",
+    "department": "2",
+    "date": "2026-03-11",
+    "dayOfWeek": "周三",
+    "checkIn": "08:22",
+    "checkOut": "17:38",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "早退"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：早退"
+  },
+  {
+    "employeeId": "EMP004",
+    "name": "叶",
+    "department": "2",
+    "date": "2026-03-11",
+    "dayOfWeek": "周三",
+    "checkIn": "10:45",
+    "checkOut": "19:40",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "严重迟到",
+      "工时不足"
+    ],
+    "riskLevel": "High",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：严重迟到、工时不足"
+  },
+  {
+    "employeeId": "EMP002",
+    "name": "付",
+    "department": "2",
+    "date": "2026-03-12",
+    "dayOfWeek": "周四",
+    "checkIn": "09:40",
+    "checkOut": "18:43",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "迟到"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：迟到"
+  },
+  {
+    "employeeId": "EMP003",
+    "name": "陈",
+    "department": "2",
+    "date": "2026-03-12",
+    "dayOfWeek": "周四",
+    "checkIn": "08:26",
+    "checkOut": "17:41",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "早退"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：早退"
+  },
+  {
+    "employeeId": "EMP004",
+    "name": "叶",
+    "department": "2",
+    "date": "2026-03-12",
+    "dayOfWeek": "周四",
+    "checkIn": "10:36",
+    "checkOut": "18:31",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "严重迟到",
+      "工时不足"
+    ],
+    "riskLevel": "High",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：严重迟到、工时不足"
+  },
+  {
+    "employeeId": "EMP002",
+    "name": "付",
+    "department": "2",
+    "date": "2026-03-13",
+    "dayOfWeek": "周五",
+    "checkIn": "09:33",
+    "checkOut": "18:04",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "迟到",
+      "早退",
+      "工时不足"
+    ],
+    "riskLevel": "Medium",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：迟到、早退、工时不足"
+  },
+  {
+    "employeeId": "EMP003",
+    "name": "陈",
+    "department": "2",
+    "date": "2026-03-13",
+    "dayOfWeek": "周五",
+    "checkIn": "08:22",
+    "checkOut": "17:48",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "早退"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：早退"
+  },
+  {
+    "employeeId": "EMP004",
+    "name": "叶",
+    "department": "2",
+    "date": "2026-03-13",
+    "dayOfWeek": "周五",
+    "checkIn": "09:11",
+    "checkOut": "18:14",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "早退"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：早退"
+  },
+  {
+    "employeeId": "EMP002",
+    "name": "付",
+    "department": "2",
+    "date": "2026-03-16",
+    "dayOfWeek": "周一",
+    "checkIn": "09:29",
+    "checkOut": "18:35",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 8,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "正常出勤",
+    "processStatus": "无需处理",
+    "exceptionTypes": [],
+    "riskLevel": "Normal",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "正常出勤，计入标准工时"
+  },
+  {
+    "employeeId": "EMP003",
+    "name": "陈",
+    "department": "—",
+    "date": "2026-03-16",
+    "dayOfWeek": "周一",
+    "checkIn": null,
+    "checkOut": null,
+    "standardWorkHours": 8,
+    "creditedWorkHours": 8,
+    "isBusinessTrip": true,
+    "isOnLeave": false,
+    "attendanceStatus": "已出差",
+    "processStatus": "无需处理",
+    "exceptionTypes": [],
+    "riskLevel": "Normal",
+    "managerEmail": null,
+    "sourceTypes": [
+      "出差记录表"
+    ],
+    "ruleExplanation": "匹配 Approved 出差记录，不计入异常"
+  },
+  {
+    "employeeId": "EMP004",
+    "name": "叶",
+    "department": "2",
+    "date": "2026-03-16",
+    "dayOfWeek": "周一",
+    "checkIn": "10:21",
+    "checkOut": "19:58",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "迟到"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：迟到"
+  },
+  {
+    "employeeId": "EMP002",
+    "name": "付",
+    "department": "—",
+    "date": "2026-03-17",
+    "dayOfWeek": "周二",
+    "checkIn": null,
+    "checkOut": null,
+    "standardWorkHours": 8,
+    "creditedWorkHours": 8,
+    "isBusinessTrip": true,
+    "isOnLeave": false,
+    "attendanceStatus": "已出差",
+    "processStatus": "无需处理",
+    "exceptionTypes": [],
+    "riskLevel": "Normal",
+    "managerEmail": null,
+    "sourceTypes": [
+      "出差记录表"
+    ],
+    "ruleExplanation": "匹配 Approved 出差记录，不计入异常"
+  },
+  {
+    "employeeId": "EMP003",
+    "name": "陈",
+    "department": "—",
+    "date": "2026-03-17",
+    "dayOfWeek": "周二",
+    "checkIn": null,
+    "checkOut": null,
+    "standardWorkHours": 8,
+    "creditedWorkHours": 8,
+    "isBusinessTrip": true,
+    "isOnLeave": false,
+    "attendanceStatus": "已出差",
+    "processStatus": "无需处理",
+    "exceptionTypes": [],
+    "riskLevel": "Normal",
+    "managerEmail": null,
+    "sourceTypes": [
+      "出差记录表"
+    ],
+    "ruleExplanation": "匹配 Approved 出差记录，不计入异常"
+  },
+  {
+    "employeeId": "EMP004",
+    "name": "叶",
+    "department": "2",
+    "date": "2026-03-17",
+    "dayOfWeek": "周二",
+    "checkIn": "10:15",
+    "checkOut": "19:16",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "迟到"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：迟到"
+  },
+  {
+    "employeeId": "EMP002",
+    "name": "付",
+    "department": "2",
+    "date": "2026-03-18",
+    "dayOfWeek": "周三",
+    "checkIn": "12:05",
+    "checkOut": "16:59",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "严重迟到",
+      "早退",
+      "工时不足"
+    ],
+    "riskLevel": "High",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：严重迟到、早退、工时不足"
+  },
+  {
+    "employeeId": "EMP003",
+    "name": "陈",
+    "department": "2",
+    "date": "2026-03-18",
+    "dayOfWeek": "周三",
+    "checkIn": "09:30",
+    "checkOut": "17:38",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "早退",
+      "工时不足"
+    ],
+    "riskLevel": "Medium",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：早退、工时不足"
+  },
+  {
+    "employeeId": "EMP004",
+    "name": "叶",
+    "department": "2",
+    "date": "2026-03-18",
+    "dayOfWeek": "周三",
+    "checkIn": "10:20",
+    "checkOut": "18:08",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "迟到",
+      "早退",
+      "工时不足"
+    ],
+    "riskLevel": "Medium",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：迟到、早退、工时不足"
+  },
+  {
+    "employeeId": "EMP001",
+    "name": "张",
+    "department": "—",
+    "date": "2026-03-19",
+    "dayOfWeek": "周四",
+    "checkIn": null,
+    "checkOut": null,
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": true,
+    "attendanceStatus": "已休假",
+    "processStatus": "无需处理",
+    "exceptionTypes": [],
+    "riskLevel": "Normal",
+    "managerEmail": null,
+    "sourceTypes": [
+      "休假记录表"
+    ],
+    "ruleExplanation": "匹配休假记录，不计入异常"
+  },
+  {
+    "employeeId": "EMP002",
+    "name": "付",
+    "department": "2",
+    "date": "2026-03-19",
+    "dayOfWeek": "周四",
+    "checkIn": "10:13",
+    "checkOut": "18:29",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "迟到",
+      "早退",
+      "工时不足"
+    ],
+    "riskLevel": "Medium",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：迟到、早退、工时不足"
+  },
+  {
+    "employeeId": "EMP003",
+    "name": "陈",
+    "department": "2",
+    "date": "2026-03-19",
+    "dayOfWeek": "周四",
+    "checkIn": "08:23",
+    "checkOut": "18:06",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "早退"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：早退"
+  },
+  {
+    "employeeId": "EMP004",
+    "name": "叶",
+    "department": "2",
+    "date": "2026-03-19",
+    "dayOfWeek": "周四",
+    "checkIn": "10:35",
+    "checkOut": "18:56",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "严重迟到",
+      "工时不足"
+    ],
+    "riskLevel": "High",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：严重迟到、工时不足"
+  },
+  {
+    "employeeId": "EMP002",
+    "name": "付",
+    "department": "2",
+    "date": "2026-03-20",
+    "dayOfWeek": "周五",
+    "checkIn": "09:32",
+    "checkOut": "18:55",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "迟到"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：迟到"
+  },
+  {
+    "employeeId": "EMP003",
+    "name": "陈",
+    "department": "2",
+    "date": "2026-03-20",
+    "dayOfWeek": "周五",
+    "checkIn": "08:23",
+    "checkOut": "17:40",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "早退"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：早退"
+  },
+  {
+    "employeeId": "EMP004",
+    "name": "叶",
+    "department": "2",
+    "date": "2026-03-20",
+    "dayOfWeek": "周五",
+    "checkIn": "10:58",
+    "checkOut": "17:08",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "严重迟到",
+      "早退",
+      "工时不足"
+    ],
+    "riskLevel": "High",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：严重迟到、早退、工时不足"
+  },
+  {
+    "employeeId": "EMP001",
+    "name": "张",
+    "department": "—",
+    "date": "2026-03-21",
+    "dayOfWeek": "周六",
+    "checkIn": null,
+    "checkOut": null,
+    "standardWorkHours": 8,
+    "creditedWorkHours": 8,
+    "isBusinessTrip": true,
+    "isOnLeave": false,
+    "attendanceStatus": "已出差",
+    "processStatus": "无需处理",
+    "exceptionTypes": [
+      "周末有记录"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": null,
+    "sourceTypes": [
+      "出差记录表"
+    ],
+    "ruleExplanation": "匹配 Approved 出差记录，不计入异常；周末有记录，默认不判旷工"
+  },
+  {
+    "employeeId": "EMP001",
+    "name": "张",
+    "department": "1",
+    "date": "2026-03-22",
+    "dayOfWeek": "周日",
+    "checkIn": "08:38",
+    "checkOut": "08:38",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 8,
+    "isBusinessTrip": true,
+    "isOnLeave": false,
+    "attendanceStatus": "已出差",
+    "processStatus": "无需处理",
+    "exceptionTypes": [
+      "周末有记录"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表",
+      "出差记录表"
+    ],
+    "ruleExplanation": "匹配 Approved 出差记录，不计入异常；周末有记录，默认不判旷工"
+  },
+  {
+    "employeeId": "EMP002",
+    "name": "付",
+    "department": "2",
+    "date": "2026-03-23",
+    "dayOfWeek": "周一",
+    "checkIn": "09:41",
+    "checkOut": "15:34",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "迟到",
+      "早退",
+      "工时不足"
+    ],
+    "riskLevel": "Medium",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：迟到、早退、工时不足"
+  },
+  {
+    "employeeId": "EMP003",
+    "name": "陈",
+    "department": "2",
+    "date": "2026-03-23",
+    "dayOfWeek": "周一",
+    "checkIn": "09:22",
+    "checkOut": "17:44",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "早退",
+      "工时不足"
+    ],
+    "riskLevel": "Medium",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：早退、工时不足"
+  },
+  {
+    "employeeId": "EMP004",
+    "name": "叶",
+    "department": "2",
+    "date": "2026-03-23",
+    "dayOfWeek": "周一",
+    "checkIn": "07:56",
+    "checkOut": "20:02",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 8,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "正常出勤",
+    "processStatus": "无需处理",
+    "exceptionTypes": [],
+    "riskLevel": "Normal",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "正常出勤，计入标准工时"
+  },
+  {
+    "employeeId": "EMP002",
+    "name": "付",
+    "department": "—",
+    "date": "2026-03-24",
+    "dayOfWeek": "周二",
+    "checkIn": null,
+    "checkOut": null,
+    "standardWorkHours": 8,
+    "creditedWorkHours": 8,
+    "isBusinessTrip": true,
+    "isOnLeave": false,
+    "attendanceStatus": "已出差",
+    "processStatus": "无需处理",
+    "exceptionTypes": [],
+    "riskLevel": "Normal",
+    "managerEmail": null,
+    "sourceTypes": [
+      "出差记录表"
+    ],
+    "ruleExplanation": "匹配 Approved 出差记录，不计入异常"
+  },
+  {
+    "employeeId": "EMP003",
+    "name": "陈",
+    "department": "2",
+    "date": "2026-03-24",
+    "dayOfWeek": "周二",
+    "checkIn": "08:22",
+    "checkOut": "17:35",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "早退"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：早退"
+  },
+  {
+    "employeeId": "EMP004",
+    "name": "叶",
+    "department": "2",
+    "date": "2026-03-24",
+    "dayOfWeek": "周二",
+    "checkIn": "10:35",
+    "checkOut": "18:32",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "严重迟到",
+      "工时不足"
+    ],
+    "riskLevel": "High",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：严重迟到、工时不足"
+  },
+  {
+    "employeeId": "EMP001",
+    "name": "张",
+    "department": "—",
+    "date": "2026-03-25",
+    "dayOfWeek": "周三",
+    "checkIn": null,
+    "checkOut": null,
+    "standardWorkHours": 8,
+    "creditedWorkHours": 8,
+    "isBusinessTrip": true,
+    "isOnLeave": false,
+    "attendanceStatus": "已出差",
+    "processStatus": "无需处理",
+    "exceptionTypes": [],
+    "riskLevel": "Normal",
+    "managerEmail": null,
+    "sourceTypes": [
+      "出差记录表"
+    ],
+    "ruleExplanation": "匹配 Approved 出差记录，不计入异常"
+  },
+  {
+    "employeeId": "EMP002",
+    "name": "付",
+    "department": "2",
+    "date": "2026-03-25",
+    "dayOfWeek": "周三",
+    "checkIn": "09:18",
+    "checkOut": "18:24",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "早退"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：早退"
+  },
+  {
+    "employeeId": "EMP003",
+    "name": "陈",
+    "department": "2",
+    "date": "2026-03-25",
+    "dayOfWeek": "周三",
+    "checkIn": "08:24",
+    "checkOut": "18:20",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "早退"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：早退"
+  },
+  {
+    "employeeId": "EMP004",
+    "name": "叶",
+    "department": "2",
+    "date": "2026-03-25",
+    "dayOfWeek": "周三",
+    "checkIn": "08:23",
+    "checkOut": "19:59",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 8,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "正常出勤",
+    "processStatus": "无需处理",
+    "exceptionTypes": [],
+    "riskLevel": "Normal",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "正常出勤，计入标准工时"
+  },
+  {
+    "employeeId": "EMP001",
+    "name": "张",
+    "department": "—",
+    "date": "2026-03-26",
+    "dayOfWeek": "周四",
+    "checkIn": null,
+    "checkOut": null,
+    "standardWorkHours": 8,
+    "creditedWorkHours": 8,
+    "isBusinessTrip": true,
+    "isOnLeave": false,
+    "attendanceStatus": "已出差",
+    "processStatus": "无需处理",
+    "exceptionTypes": [],
+    "riskLevel": "Normal",
+    "managerEmail": null,
+    "sourceTypes": [
+      "出差记录表"
+    ],
+    "ruleExplanation": "匹配 Approved 出差记录，不计入异常"
+  },
+  {
+    "employeeId": "EMP002",
+    "name": "付",
+    "department": "—",
+    "date": "2026-03-26",
+    "dayOfWeek": "周四",
+    "checkIn": null,
+    "checkOut": null,
+    "standardWorkHours": 8,
+    "creditedWorkHours": 8,
+    "isBusinessTrip": true,
+    "isOnLeave": false,
+    "attendanceStatus": "已出差",
+    "processStatus": "无需处理",
+    "exceptionTypes": [],
+    "riskLevel": "Normal",
+    "managerEmail": null,
+    "sourceTypes": [
+      "出差记录表"
+    ],
+    "ruleExplanation": "匹配 Approved 出差记录，不计入异常"
+  },
+  {
+    "employeeId": "EMP003",
+    "name": "陈",
+    "department": "2",
+    "date": "2026-03-26",
+    "dayOfWeek": "周四",
+    "checkIn": "08:20",
+    "checkOut": "17:35",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "早退"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：早退"
+  },
+  {
+    "employeeId": "EMP004",
+    "name": "叶",
+    "department": "2",
+    "date": "2026-03-26",
+    "dayOfWeek": "周四",
+    "checkIn": "10:36",
+    "checkOut": "18:26",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "严重迟到",
+      "早退",
+      "工时不足"
+    ],
+    "riskLevel": "High",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：严重迟到、早退、工时不足"
+  },
+  {
+    "employeeId": "EMP001",
+    "name": "张",
+    "department": "—",
+    "date": "2026-03-27",
+    "dayOfWeek": "周五",
+    "checkIn": null,
+    "checkOut": null,
+    "standardWorkHours": 8,
+    "creditedWorkHours": 8,
+    "isBusinessTrip": true,
+    "isOnLeave": false,
+    "attendanceStatus": "已出差",
+    "processStatus": "无需处理",
+    "exceptionTypes": [],
+    "riskLevel": "Normal",
+    "managerEmail": null,
+    "sourceTypes": [
+      "出差记录表"
+    ],
+    "ruleExplanation": "匹配 Approved 出差记录，不计入异常"
+  },
+  {
+    "employeeId": "EMP002",
+    "name": "付",
+    "department": "—",
+    "date": "2026-03-27",
+    "dayOfWeek": "周五",
+    "checkIn": null,
+    "checkOut": null,
+    "standardWorkHours": 8,
+    "creditedWorkHours": 8,
+    "isBusinessTrip": true,
+    "isOnLeave": false,
+    "attendanceStatus": "已出差",
+    "processStatus": "无需处理",
+    "exceptionTypes": [],
+    "riskLevel": "Normal",
+    "managerEmail": null,
+    "sourceTypes": [
+      "出差记录表"
+    ],
+    "ruleExplanation": "匹配 Approved 出差记录，不计入异常"
+  },
+  {
+    "employeeId": "EMP003",
+    "name": "陈",
+    "department": "2",
+    "date": "2026-03-27",
+    "dayOfWeek": "周五",
+    "checkIn": "07:58",
+    "checkOut": "19:02",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 8,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "正常出勤",
+    "processStatus": "无需处理",
+    "exceptionTypes": [],
+    "riskLevel": "Normal",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "正常出勤，计入标准工时"
+  },
+  {
+    "employeeId": "EMP002",
+    "name": "付",
+    "department": "2",
+    "date": "2026-03-30",
+    "dayOfWeek": "周一",
+    "checkIn": "10:15",
+    "checkOut": "19:25",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "迟到"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：迟到"
+  },
+  {
+    "employeeId": "EMP003",
+    "name": "陈",
+    "department": "2",
+    "date": "2026-03-30",
+    "dayOfWeek": "周一",
+    "checkIn": "08:17",
+    "checkOut": "17:40",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "早退"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：早退"
+  },
+  {
+    "employeeId": "EMP002",
+    "name": "付",
+    "department": "2",
+    "date": "2026-03-31",
+    "dayOfWeek": "周二",
+    "checkIn": "10:19",
+    "checkOut": "19:21",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 0,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "考勤异常",
+    "processStatus": "待确认",
+    "exceptionTypes": [
+      "迟到"
+    ],
+    "riskLevel": "Low",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "存在考勤异常：迟到"
+  },
+  {
+    "employeeId": "EMP003",
+    "name": "陈",
+    "department": "2",
+    "date": "2026-03-31",
+    "dayOfWeek": "周二",
+    "checkIn": "08:24",
+    "checkOut": "18:44",
+    "standardWorkHours": 8,
+    "creditedWorkHours": 8,
+    "isBusinessTrip": false,
+    "isOnLeave": false,
+    "attendanceStatus": "正常出勤",
+    "processStatus": "无需处理",
+    "exceptionTypes": [],
+    "riskLevel": "Normal",
+    "managerEmail": "manager.li@example.com",
+    "sourceTypes": [
+      "考勤表"
+    ],
+    "ruleExplanation": "正常出勤，计入标准工时"
+  }
+]

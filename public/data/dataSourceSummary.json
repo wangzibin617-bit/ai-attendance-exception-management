@@ -1,0 +1,159 @@
+{
+  "generatedAt": "2026-07-01T07:47:35.556Z",
+  "phase": "1-data-import",
+  "sources": [
+    {
+      "source": "考勤表",
+      "fileName": "attendance.xlsx",
+      "sheetName": "2026年03月考勤表",
+      "rawRowCount": 56,
+      "fields": [
+        {
+          "index": 0,
+          "name": "员工工号",
+          "type": "string"
+        },
+        {
+          "index": 1,
+          "name": "姓名",
+          "type": "string"
+        },
+        {
+          "index": 2,
+          "name": "部门",
+          "type": "string"
+        },
+        {
+          "index": 3,
+          "name": "日期",
+          "type": "date"
+        },
+        {
+          "index": 4,
+          "name": "最早打卡时间",
+          "type": "time"
+        },
+        {
+          "index": 5,
+          "name": "最晚打卡时间",
+          "type": "time"
+        },
+        {
+          "index": 6,
+          "name": "午休时间",
+          "type": "time"
+        },
+        {
+          "index": 7,
+          "name": "工作时间",
+          "type": "time"
+        },
+        {
+          "index": 8,
+          "name": "直线经理邮箱",
+          "type": "string"
+        }
+      ],
+      "requiredFields": [
+        "员工工号",
+        "日期"
+      ],
+      "missingRequiredFields": [],
+      "validationPassed": true,
+      "issues": []
+    },
+    {
+      "source": "出差记录表",
+      "fileName": "business_trip.xlsx",
+      "sheetName": "Leave",
+      "rawRowCount": 8,
+      "fields": [
+        {
+          "index": 0,
+          "name": "员工工号",
+          "type": "string"
+        },
+        {
+          "index": 1,
+          "name": "姓名",
+          "type": "string"
+        },
+        {
+          "index": 2,
+          "name": "开始时间",
+          "type": "time"
+        },
+        {
+          "index": 3,
+          "name": "结束时间",
+          "type": "time"
+        },
+        {
+          "index": 4,
+          "name": "审批状态",
+          "type": "string"
+        },
+        {
+          "index": 5,
+          "name": "累计出差工作日",
+          "type": "time"
+        }
+      ],
+      "requiredFields": [
+        "员工工号",
+        "开始时间",
+        "结束时间",
+        "审批状态"
+      ],
+      "missingRequiredFields": [],
+      "validationPassed": true,
+      "issues": []
+    },
+    {
+      "source": "休假记录表",
+      "fileName": "leave.xlsx",
+      "sheetName": "休假记录表",
+      "rawRowCount": 1,
+      "fields": [
+        {
+          "index": 0,
+          "name": "员工工号",
+          "type": "string"
+        },
+        {
+          "index": 1,
+          "name": "姓名",
+          "type": "string"
+        },
+        {
+          "index": 2,
+          "name": "开始日期",
+          "type": "date"
+        },
+        {
+          "index": 3,
+          "name": "结束日期",
+          "type": "date"
+        },
+        {
+          "index": 4,
+          "name": "Day of the Week",
+          "type": "number"
+        },
+        {
+          "index": 5,
+          "name": "休假天数",
+          "type": "number"
+        }
+      ],
+      "requiredFields": [
+        "员工工号",
+        "开始日期",
+        "结束日期"
+      ],
+      "missingRequiredFields": [],
+      "validationPassed": true,
+      "issues": []
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "rowIndex": 0,
+    "employeeId": "EMP001",
+    "name": "张",
+    "startDate": "2026-03-19",
+    "endDate": "2026-03-19",
+    "dayOfWeek": "星期四",
+    "leaveDays": 1
+  }
+]
