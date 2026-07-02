@@ -260,12 +260,3 @@ hr-attendance-ai/
 
 ---
 
-## 👤 关于作者
-
-本项目由 AI 产品经理实习生开发，作为个人作品集展示项目。
-
-如有任何问题或建议，欢迎提 Issue 或联系作者。
-
----
-
-*Built with ❤️ for HR professionals who deserve better tools.*
